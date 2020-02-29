@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 16px;
+  }
+body {
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: 'Merriweather', serif;
+}
+a {
+    color: #07689f;
+}
+
+/* ################################## */
+/* Start Header CSS */
+
+/********************************************************/
+/**************** This is the info bar ******************/
+
+.tangerine-font {
+    font-family: 'Tangerine', cursive;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.nav-custom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 1;
+}
+.nav-custom > * {      /* Applied to all the child elements */
+    color: #AAAAAA;
+    font-size: .8rem !important;
+}
+
+/* Button */
+
+.btn {
+    background: #14B9FF;
+    background-image: -webkit-linear-gradient(top, rgb(36, 109, 192), #391ED0);
+    background-image: -moz-linear-gradient(top, rgb(36, 109, 192), #391ED0);
+    background-image: -ms-linear-gradient(top, rgb(36, 109, 192), #391ED0);
+    background-image: -o-linear-gradient(top, rgb(36, 109, 192), #391ED0);
+    background-image: linear-gradient(to bottom, rgb(36, 109, 192), #391ED0);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 10px 0px #000000;
+    -webkit-box-shadow: 1px 1px 10px 0px #000000;
+    -moz-box-shadow: 1px 1px 10px 0px #000000;
+    text-shadow: 1px 1px 5px #000000;
+    border: solid #2B4160 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid #2B4160 1px;
+    background: #145EFF;
+    background-image: -webkit-linear-gradient(top, #145EFF, #5391F3);
+    background-image: -moz-linear-gradient(top, #145EFF, #5391F3);
+    background-image: -ms-linear-gradient(top, #145EFF, #5391F3);
+    background-image: -o-linear-gradient(top, #145EFF, #5391F3);
+    background-image: linear-gradient(to bottom, #145EFF, #5391F3);
+    color: #FFFFFF;
+}
+
+/* End Header CSS */
+/********************************************************/  
+
+
+/********************************************************/  
+/* Start Footer */
+
+.main_footer{
+    background-color: #c9d6df;
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+
+#instagram_imgs img {
+    height: 7%;
+}
+
+/* End Footer CSS */
+/********************************************************/  
+
+/********************************************************/
+/* Secondary Pages */
+
+/* Stories */
+#testimonial-carousel{
+    text-align: center;
+    background-color: #a8d8ea;
+}
+.carousel-item{
+    padding-bottom: 50px;
+    font-family: 'Merriweather', serif;
+}
+.carousel-item h3{
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 6% 17%;
+}
+.carousel-item h2{
+    color: #ffffff;
+    line-height: 1.32;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 6% 17%;
+}
+.client-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+/* Stories END */
+
+/* Menu */
+
+.card{
+    width: 30%;
+}
+
+/* Menu END */
